@@ -56,113 +56,133 @@ hr {
 
 /* 文字サイズ */
 /* P54 chapter4/c04-01-a */
-
-#ch07-1-a {
-
+<head>
+<style>
+#ch07-1-a body {
+  font-size: 1em;
 }
-
 #ch07-1-a div {
-
+font-size: 0.8em;
 }
-
-
+</style>
+</head>
 /* P55 chapter4/c04-01-b */
-
-#ch07-1-b {
-
+<head>
+<style>
+#ch07-1-b body {
+   font-size: 14px;
 }
 
 #ch07-1-b h1 {
-
+   font-size: 20px;
 }
 
 #ch07-1-b h2 {
-
+   font-size: 16px;
 }
-
+</style>
+</head>
 
 /* P56 chapter4/c04-01-c */
 /* htmlの文字サイズは16px程度 */
-
+<head>
+<meta charset="utf-8">
+<title>見出しや本文のフォントサイズを調整する</title>
+<style>
+html {
+  font-size: 14px;
+}
 #ch07-1-c h1 {
-
+  font-size: 1.4rem;
 }
 
 #ch07-1-c h2 {
-
+  font-size: 1.14rem;
 }
-
+</style>
+</head>
 
 /* 行間 */
 /* P58 chapter4/c04-02 */
-
-#ch07-2 {
-
+<head>
+<style>
+#ch07-2 body {
+  line-height: 1.7;
 }
-
+</style>
 /* 太字 */
 /* P60 chapter4/c04-03 */
-
-#ch07-3 {
+<style>
+#ch07-3 body {
 	line-height: 1.7;
 }
 
 #ch07-3 .lead {
-
+        font-weight: bold;
 }
-
+</style>
 /* フォント */
 /* P62 chapter4/c04-04-a */
-
+<head>
+<meta charset="utf-8">
+<title>表示するフォントを設定する</title>
+<style>
 #ch07-4-a {
 	line-height: 1.7;
-
+        font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ　ProN", Meiryo, "MS Pゴシック", sans-serif:
 }
 
 #ch07-4-a .lead {
 	font-weight: bold;
 }
-
+</style>
+</head>
 /* P63 chapter4/c04-04-b */
-
-#ch07-4-b {
+<style>
+#ch07-4-b  body {
 	line-height: 1.7;
-
+        font-family: sans-serif;
 }
-
+</style>
 #ch07-4-b .lead {
 	font-weight: bold;
 }
 
 
 /* P65 chapter4/c04-04-c */
-
+<head>
+<meta charset="utf-8">
+<title>Webフォントを使用する</title>
+<link rel="stylesheet" href="gttp://fonts.googleapis.com/earlyaccess/notosansjapanese.css">
+<style>
 #ch07-4-c {
 	line-height: 1.7;
-
+        font-family: 'Noto Sans Japanese', sans-serif;
 }
 
 #ch07-4-c .lead {
 	font-weight: bold;
 }
+</style>
+</head>
 
 
 /* 行揃え */
 /* P69 chapter4/c04-05-a */
-
+<style>
 #ch07-5-a {
 	line-height: 1.7;
 	font-family: sans-serif;
 }
 
 #ch07-5-a .headline {
-
+        text-align: center;
 }
 
 #ch07-5-a .lead {
 	font-weight: bold;
 }
-
+</style>
 /* P70 chapter4/c04-05-b */
 
 #ch07-5-b {
